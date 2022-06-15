@@ -1,0 +1,276 @@
+
+{%extends 'base.html' %}
+{% load static %}
+{% block title %}
+Homepage
+{% endblock  %}
+{% block content %}
+{% include 'nav.html' %}
+<div class="container mt-5">
+  <div class="bg-dark text-white p-3 text-center ">
+    <h2 class="text-uppercase ">Products</h2>
+  </div>
+  <div class="card-group my-md-2 d-md-flex flex-col">
+    <div class="card">
+      <img src="img/product-9.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nodo Shorts with stripes </h5>
+        <button data-id="i" id="cart" class="btn btn-dark text-white">Add to Cart</button>
+        <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/product-3_2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Plain Nodo Shorts</h5>
+        <button data-id="j" id="cart" class="btn btn-dark text-white">Add to Cart</button>
+        <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/product-11.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pants</h5>
+        <button id="cart" data-id="k" class="btn btn-dark text-white">Add to Cart</button>
+        <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/product-12.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lady's Wears</h5>
+        <button id="cart" data-id="l" class="btn btn-dark text-white">Add to Cart</button>
+        <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+      </div>
+    </div>
+  </div>
+  <div class="card-group my-md-2 d-md-flex flex-col">
+    <div class="card">
+      <img src="img/product-1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nodo Frames</h5>
+        <button data-id="a" id="cart" class="btn btn-dark text-white">Add to Cart</button>
+        <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/product-2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nodo Shorts and Tops</h5>
+        <button data-id="b" id="cart" class="btn btn-dark text-white">Add to Cart</button>
+        <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/product-16.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Knickers</h5>
+        <button id="cart" data-id="c" class="btn btn-dark text-white">Add to Cart</button>
+        <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/product-4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Shirts</h5>
+        <button id="cart" data-id="d" class="btn btn-dark text-white">Add to Cart</button>
+        <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+      </div>
+    </div>
+  </div>
+    <div class="card-group my-md-2 d-md-flex flex-col">
+      <div class="card">
+        <img src="img/product-13.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Men's Native</h5>
+          <button data-id="m" id="cart" class="btn btn-dark text-white">Add to Cart</button>
+          <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/product-17.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nodo Frames</h5>
+          <button data-id="n" id="cart" class="btn btn-dark text-white">Add to Cart</button>
+          <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/product-15.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nodo Collections</h5>
+          <button id="cart" data-id="o" class="btn btn-dark text-white">Add to Cart</button>
+          <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/nodowave ankara-designer.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Shirts</h5>
+          <button id="cart" data-id="p" class="btn btn-dark text-white">Add to Cart</button>
+          <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+        </div>
+        </div>
+    </div>
+  <div class="card-group my-md-2 d-md-flex flex-col">
+      <div class="card">
+        <img src="img/product-5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nodo Ancient Black (Egyptian)</h5>
+          <button id="cart" data-id="e" class="btn btn-dark text-white">Add to Cart</button>
+          <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/product-6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nodo Ancient White (Egyptian)</h5>
+          <button id="cart" data-id="f" class="btn btn-dark text-white">Add to Cart</button>
+          <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/product-7.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nodo Ancient Designer</h5>
+          <button id="cart" data-id="g" class="btn btn-dark text-white">Add to Cart</button>
+          <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/nodo-artista-frame.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nodo Artista Frame</h5>
+          <button id="cart" data-id="h" class="btn btn-dark text-white">Add to Cart</button>
+          <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+        </div>
+        </div>
+    </div>
+    <div class="card-group my-md-2 d-md-flex flex-col">
+      <div class="card">
+        <img src="img/Track-suit.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nodo Track Suit</h5>
+          <button id="cart" data-id="tracksuit" class="btn btn-dark text-white">Add to Cart</button>
+          <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/nodo-valentino.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nodo Valentino</h5>
+            <button id="cart" data-id="f" class="btn btn-dark text-white">Add to Cart</button>
+            <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/nodo-couple-valentino.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nodo Couple Valentino</h5>
+            <button id="cart" data-id="couple" class="btn btn-dark text-white">Add to Cart</button>
+            <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+          </div>
+        </div>
+        <div class="card">
+            <img src="img/nodo-frames.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nodo Frames</h5>
+              <button id="cart" data-id="frame1" class="btn btn-dark text-white">Add to Cart</button>
+              <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+            </div>
+          </div>
+      </div>
+    <div class="card-group my-md-2 d-md-flex flex-col">
+      <div class="card">
+        <img src="img/nodo-ancient-raggae.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nodo Ancient Raggae</h5>
+          <button id="cart" data-id="raggae" class="btn btn-dark text-white">Add to Cart</button>
+          <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/nodo-head-bando.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nodo Head Bando</h5>
+            <button id="cart" data-id="bando" class="btn btn-dark text-white">Add to Cart</button>
+            <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/nodo-plain-short.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Plain Nodowave (Black)</h5>
+            <button id="cart" data-id="black-wave" class="btn btn-dark text-white">Add to Cart</button>
+            <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+          </div>
+        </div>
+        <div class="card">
+            <img src="img/product-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Plain Nodowave White</h5>
+              <button id="cart" data-id="white-wave" class="btn btn-dark text-white">Add to Cart</button>
+              <p class="card-text"><small class="text-muted">Price Not Available</small></p>
+            </div>
+          </div>
+      </div>
+    </div>
+</div>
+<div class="container-fluid bg-dark text-white text-center m-auto ">
+  <div class="row justify-content-center align-content-center">
+    <a class="copyright" href="http://hectorgitt.github.io"><p class="my-auto py-2 ">Copyright <i class="far fa-copyright" aria-hidden="true"></i> Verinet</p></a>
+  </div>
+</div>
+
+  
+<!-- Button trigger modal -->
+<button type="button" class="cartBtn btn btn-dark btn-lg" data-toggle="modal" data-target="#shopCart">
+  <i class="fa fa-shopping-cart" aria-hidden="true"></i> <p  class="d-inline">0</p>
+</button>
+
+<!-- Modal -->
+<div class="modal bd-example-modal-lg fade" id="shopCart" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-dark">
+        <h5 class="modal-title text-white text-center"><i class="mr-3 fa fa-shopping-cart" aria-hidden="true"></i>Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+      </div>
+      <div class="modal-body">
+        <div class="cart text-white">
+      <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">S/N</th>
+              <th scope="col">Image</th>
+              <th scope="col">Name</th>
+              <th scope="col">Price</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody class="tBody">
+              <tr>
+                <th></th>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer" data-toggle="modal">
+        <a href="" class="btn btn-dark checkOut"  data-target="#shopCart">Checkout</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="{% static 'nodo/js/cart.js' %}"></script>
+{% endblock %}
+
+{% block footer %}
+
+
+{% endblock  %}

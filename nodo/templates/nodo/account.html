@@ -1,0 +1,109 @@
+{%extends 'base.html' %}
+{% load static %}
+{% block title %}
+account
+{% endblock  %}
+{% block links %}
+<link rel="stylesheet" href="{% static 'nodo/css/login.css' %} "
+{% endblock  %}
+{% block content %}
+{% include 'nav.html' %}
+<!-- <div class="container-fluid min-h-100 my-5 page-unload">
+    <div class="row my-5 text-center">   
+        <div class="in-progress col-md-12">
+            <div class="lds-dual-ring"></div>
+            <h4 class="text-white">This feauture is still under construction...</h4>
+
+        </div>
+    </div>
+</div> -->
+<div class="cont">
+    <div class="formCont">
+        <div id="main">
+            <div class=""  id="log-container">
+                <div class="login-container p-3">
+                    <div class="logo mb-3">
+                        <div class="col-md-12 text-center">
+                            <h1 >Sign In</h1>
+                        </div>
+                    </div>
+                    <form method="POST" name="login">
+                        <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input required type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                        <label for="exampleInputEmail1">Password</label>
+                        <input required type="password" name="password" minlength="8" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Password">
+                        </div>
+                        <div class="form-group">
+                        <p class="text-center">By signing up you accept our <a href="#">Terms Of Use</a></p>
+                        </div>
+                        <div class="col-md-12 text-center ">
+                        <button id="loginbtn" type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Login</button>
+                        </div>
+                        <div class="col-md-12 text-center ">
+                        <div class="login-or">
+                            <hr class="hr-or">
+                            <span class="span-or">or</span>
+                        </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                        <p class="text-center">
+                            <a href="javascript:void();" class="google btn mybtn btn-secondary"><i class="fab fa-google-plus">
+                            </i> Signin using Google
+                            </a>
+                        </p>
+                        </div>
+                        <div class="form-group">
+                        <p class="text-center">Don't have account? <button class="btn"><a href="javascript:void();" id="signup" >Sign up here</a></button></p>
+                        </div>
+                    </form>
+                </div>
+            
+            </div>
+            <div class="signup-container p-3" id="signup-container">
+                <div id="sign-up" class="mt-3">
+                    <div class="myform form ">
+                        <div class="logo mb-3">
+                            <div class="col-md-12 text-center">
+                                <h1 >Signup</h1>
+                            </div>
+                        </div>
+                        <form action="#" method="POST" name="registration">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">First Name</label>
+                                <input minlength="3" type="text"  name="firstname" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter Firstname">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Last Name</label>
+                                <input minlength="3" type="text"  name="lastname" class="form-control" id="lastname" aria-describedby="emailHelp" placeholder="Enter Lastname">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Password</label>
+                                <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Password">
+                            </div>
+                            <div class="col-md-12 text-center mb-3">
+                                <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Get Started For Free</button>
+                            </div>
+                            
+                            <div class="col-md-12 ">
+                                <div class="form-group">
+                                <p class="text-center">Already have an account?<button class="btn"><a href="javascript:void();" id="signin"> Log In</a></button>
+                                </div>
+                            </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<script src="{% static 'nodo/js/login.js' %}"></script>
+{% endblock %}
+
+

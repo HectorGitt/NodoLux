@@ -1,0 +1,168 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  
+  font-weight: 600;
+}
+
+body div div a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.copyright:hover {
+  color: none;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  color: initial;
+}
+
+.navbar-nav > li{
+  padding-left:5px;
+  padding-right:0px;
+}
+.navbar {
+  z-index: 5;
+  font-size: 120%;
+}
+.content h1 {
+  font-family: 'Bree Serif', serif;
+}
+
+.content{
+  font-family: 'Cantarell', sans-serif;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  font-size: 200%;
+  z-index: 2;
+}
+.content h1 {
+  font-size: 300%;
+}
+.page::after{
+  content: "";
+  height: 110vh;
+  width: 100%;
+  background-image: url("../img/background.png") ;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: block;
+  transition: all 1000ms;
+  position: relative;
+  top: -60px;
+}
+.catg1 {
+  z-index: 10;
+}
+.review2 img {
+  
+}
+.navbar {
+  background-color: transparent;
+}
+
+.cardcolor {
+  background-color: antiquewhite;
+}
+
+.display-5 {
+  font-family: 'Goldman', cursive;
+  color: rgb(2, 39, 70);
+}
+.call {
+  font-size: 200%;
+  font-weight: 800;
+}
+.call .btn {
+  font-size: 100%;
+  font-weight: 600;
+}
+.msgBtn {
+  font-size: 200%;
+  padding: 0 10px;
+  z-index: 5;
+}
+
+.jumbotron {
+  display: flex;
+
+}
+.ceo img {
+  max-width: 200px;
+}
+/* .info > div > * {
+  padding: px;
+} */
+.payment-security img {
+  width: 80px;
+}
+td, th {
+  padding: 10px;
+}
+
+
+
+
+
+
+
+/*animation*/
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.in-progress {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.page-unload {
+  background-image: url();
+}
+.cartMain {
+ 
+  top: 200px;
+  margin: 0 auto;
+}
+.cartBtn, .msgBtn {
+  position: fixed;
+  bottom: 20px;   
+  right: 20px;
+}
+.tBody img {
+  width: 50px;
+}
+@media only screen and (max-width: 765px){
+  .navbar-collapse {
+      background-color: #343a40;
+  }
+
+}
+
